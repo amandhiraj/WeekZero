@@ -1,5 +1,5 @@
 # WeekZero
-This app is for the 2019 weekzero at Lassonde school of engineering.
+This app is for the 2019 weekzero at Lassonde school of engineering. The app comes with mobile framework but does not include backend framework. You can easily rig up an backend to support this app and it is not very hard.
 
 # CodeFi
 This app has been branded by CodeFi Club and developed by Aman Dhiraj

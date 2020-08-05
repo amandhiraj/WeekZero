@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/background"
+    tools:context="com.amandhiraj.weekzero.weekzero.halo.weekzero.Scanner">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+        <ImageView
+            android:src="@drawable/sponsorlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:fontFamily="sans-serif"
+            android:text="Version:"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp">
+
+
+        <Button
+            android:id="@+id/scanbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="sans-serif-medium"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="SCAN"
+            android:textAllCaps="false"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#272727"
+            android:textSize="24sp" />
+
+        </RelativeLayout>
+
+     <RelativeLayout
+         android:id="@+id/rellay2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:visibility="gone">
+
+         <Button
+             android:id="@+id/verVal"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:background="@color/transparent"
+             android:fontFamily="sans-serif"
+             android:text="Version:"
+             android:textAllCaps="true"
+             android:textColor="@color/white" />
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:background="@color/transparent"
+             android:fontFamily="sans-serif"
+             android:text="2019 © Aman Dhiraj"
+             android:textAllCaps="true"
+             android:textColor="@color/white" />
+
+     </RelativeLayout>
+
+</RelativeLayout>
